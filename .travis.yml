@@ -12,7 +12,7 @@ before_install:
 install:
   - composer install --no-interaction --no-progress
 
-script: vendor/bin/phpunit --testdox -v tests/
+script: vendor/bin/phpunit -v tests/
 
 notifications:
   email: true
