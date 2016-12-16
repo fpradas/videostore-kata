@@ -1,5 +1,7 @@
 # Videostore Kata README #
 
+[![Build Status](https://travis-ci.org/fpradas/videostore-kata.svg?branch=master)](https://travis-ci.org/fpradas/videostore-kata)
+
 This README would normally document whatever steps are necessary to get your application up and running. 
 
 ### Requirements ###

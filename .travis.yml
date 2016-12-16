@@ -1,0 +1,18 @@
+language: php
+php:
+  - '7.0'
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+before_install:
+  - composer self-update
+
+install:
+  - composer install --no-interaction --no-progress
+
+script: vendor/bin/phpunit --testdox -v tests/
+
+notifications:
+  email: true
