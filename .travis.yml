@@ -12,7 +12,10 @@ before_install:
 install:
   - composer install --no-interaction --no-progress
 
-script: vendor/bin/phpunit -v tests/
+script: php vendor/bin/phpunit -v -c phpunit.xml.dist
+
+after_success:
+  - travis_retry php vendor/bin/coveralls
 
 notifications:
   email: true
