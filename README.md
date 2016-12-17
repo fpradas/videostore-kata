@@ -1,6 +1,7 @@
 # Videostore Kata README #
 
 [![Build Status](https://travis-ci.org/fpradas/videostore-kata.svg?branch=master)](https://travis-ci.org/fpradas/videostore-kata)
+[![Coverage Status](https://coveralls.io/repos/github/fpradas/videostore-kata/badge.svg?branch=master)](https://coveralls.io/github/fpradas/videostore-kata?branch=master)
 
 This README would normally document whatever steps are necessary to get your application up and running. 
 
