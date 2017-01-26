@@ -1,6 +1,8 @@
 <?php
 
-namespace video;
+namespace Webflix;
+
+use Webflix\Rental\Rental;
 
 /**
  * Class RentalStatement
@@ -65,14 +67,14 @@ class RentalStatement
     private function determineFrequentRenterPoints()
     {
         return array_reduce($this->rentals, function(int $carry, Rental $rental) {
-            return $carry + $rental->determineFrequentRenterPoints();
+            return $carry + $rental->frequentRenterPoints();
         }, 0);
     }
 
     private function determineTotalAmount()
     {
         return array_reduce($this->rentals, function(int $carry, Rental $rental) {
-            return $carry + $rental->determineAmount();
+            return $carry + $rental->amount();
         }, 0);
     }
 
@@ -85,7 +87,7 @@ class RentalStatement
     ) : string
     {
         /** @var float $thisAmount */
-        $thisAmount = $rental->determineAmount();
+        $thisAmount = $rental->amount();
 
         return $this->formatRentalLine($rental, $thisAmount);
     }
@@ -97,7 +99,7 @@ class RentalStatement
      */
     private function formatRentalLine($rental, $thisAmount) : string
     {
-        return "\t" . $rental->title() . "\t" . number_format($thisAmount, 1) . "\n";
+        return "\t" . $rental->movieTitle() . "\t" . number_format($thisAmount, 1) . "\n";
     }
 
     /**
