@@ -5,6 +5,9 @@
 [![Code Climate](https://codeclimate.com/github/fpradas/videostore-kata/badges/gpa.svg)](https://codeclimate.com/github/fpradas/videostore-kata)
 [![Test Coverage](https://codeclimate.com/github/fpradas/videostore-kata/badges/coverage.svg)](https://codeclimate.com/github/fpradas/videostore-kata/coverage)
 [![Issue Count](https://codeclimate.com/github/fpradas/videostore-kata/badges/issue_count.svg)](https://codeclimate.com/github/fpradas/videostore-kata)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/fpradas/videostore-kata/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/fpradas/videostore-kata/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/fpradas/videostore-kata/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/fpradas/videostore-kata/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/fpradas/videostore-kata/badges/build.png?b=master)](https://scrutinizer-ci.com/g/fpradas/videostore-kata/build-status/master)
 
 This README would normally document whatever steps are necessary to get your application up and running. 
 
