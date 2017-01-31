@@ -1,0 +1,29 @@
+filter:
+    excluded_paths:
+        - 'tests/*'
+
+checks:
+    php:
+        code_rating: true
+        duplication: true
+
+coding_style:
+    php:
+        spaces:
+            around_operators:
+                concatenation: true
+build:
+    environment:
+        php:
+            version: 7.0.7
+    tests:
+        override:
+            -
+                command: 'php vendor/bin/phpunit -v -c phpunit.xml.dist'
+                coverage:
+                    file: 'build/logs/clover.xml'
+                    format: 'clover'
+            - phpcs-run --standard=phpcs.xml
+tools:
+    external_code_coverage:
+        timeout: 120
