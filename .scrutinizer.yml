@@ -24,6 +24,3 @@ build:
                     file: 'build/logs/clover.xml'
                     format: 'clover'
             - phpcs-run --standard=phpcs.xml
-tools:
-    external_code_coverage:
-        timeout: 120
