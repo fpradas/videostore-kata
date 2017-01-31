@@ -1,6 +1,11 @@
 language: php
+
 php:
   - '7.0'
+
+env:
+  global:
+    - CODECLIMATE_REPO_TOKEN: abcf79de4e15af53a064642428a4bbba85e940d02cb2946181f2cc7b69f68feb
 
 cache:
   directories:
@@ -16,7 +21,7 @@ script: php vendor/bin/phpunit -v -c phpunit.xml.dist
 
 after_success:
   - travis_retry php vendor/bin/coveralls
-  - travis_retry CODECLIMATE_REPO_TOKEN=abcf79de4e15af53a064642428a4bbba85e940d02cb2946181f2cc7b69f68feb ./vendor/bin/test-reporter
+  - travis_retry php vendor/bin/test-reporter
 
 notifications:
   email: true
