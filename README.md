@@ -2,6 +2,9 @@
 
 [![Build Status](https://travis-ci.org/fpradas/videostore-kata.svg?branch=master)](https://travis-ci.org/fpradas/videostore-kata)
 [![Coverage Status](https://coveralls.io/repos/github/fpradas/videostore-kata/badge.svg?branch=master)](https://coveralls.io/github/fpradas/videostore-kata?branch=master)
+[![Code Climate](https://codeclimate.com/github/fpradas/videostore-kata/badges/gpa.svg)](https://codeclimate.com/github/fpradas/videostore-kata)
+[![Test Coverage](https://codeclimate.com/github/fpradas/videostore-kata/badges/coverage.svg)](https://codeclimate.com/github/fpradas/videostore-kata/coverage)
+[![Issue Count](https://codeclimate.com/github/fpradas/videostore-kata/badges/issue_count.svg)](https://codeclimate.com/github/fpradas/videostore-kata)
 
 This README would normally document whatever steps are necessary to get your application up and running. 
 

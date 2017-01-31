@@ -19,3 +19,7 @@ after_success:
 
 notifications:
   email: true
+
+addons:
+    code_climate:
+        repo_token: abcf79de4e15af53a064642428a4bbba85e940d02cb2946181f2cc7b69f68feb
