@@ -9,6 +9,7 @@
 [![Code Coverage](https://scrutinizer-ci.com/g/fpradas/videostore-kata/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/fpradas/videostore-kata/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/fpradas/videostore-kata/badges/build.png?b=master)](https://scrutinizer-ci.com/g/fpradas/videostore-kata/build-status/master)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/594dc314-f5a5-40f7-b791-e7c7ff48f756/mini.png)](https://insight.sensiolabs.com/projects/594dc314-f5a5-40f7-b791-e7c7ff48f756)
+[![Dependency Status](https://www.versioneye.com/user/projects/5891008ca23e810044acfd8e/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5891008ca23e810044acfd8e)
 
 This README would normally document whatever steps are necessary to get your application up and running. 
 
